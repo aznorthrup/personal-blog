@@ -1,9 +1,9 @@
-@import "https://fonts.googleapis.com/css?family=Poppins:400,700";
+@import "https://fonts.googleapis.com/css?family=Roboto:400,700";
 
 
 body {
   background-color: #e9e9e9;
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 h1 {
@@ -110,12 +110,16 @@ div.site-subheader {
 }
 
 ul.site-navigation li {
-  border-bottom: 1px solid rgba(214, 214, 214, 0.4);
+  border-bottom: 1px solid rgba(38,57,138,.4);
   padding: 20px 20px 20px 20px;
   font-size: 1.1em;
+  text-align: center;
+  margin-left:  10px;
 }
 
 ul.site-navigation li i {
+  text-align: center;
+  margin-left:  10px;
   margin-right: 5px;
 }
 
@@ -127,6 +131,9 @@ ul.site-navigation li a {
   -moz-transition:.5s;
   -webkit-transition:.5s;
   transition:.5s;
+  text-align: center;
+  margin-left:  10px;
+
 }
 
 ul.site-navigation li a:hover {
